@@ -336,9 +336,25 @@ The target is **30+ days** on a **250 mAh** LiPo battery. The typical usage prof
 
 ### PCB Renders
 
-**2D Layout (Top)**
+**Board Overview**
 
-![PCB 2D Layout](Images/pcb_2d.jpg)
+![Board Overview](Images/InkTime_Board.jpg)
+
+**2D Layout - Top Layer**
+
+![PCB 2D Top](Images/pcb_2d_top.jpg)
+
+**2D Layout - Bottom Layer**
+
+![PCB 2D Bottom](Images/pcb_2d_bottom.jpg)
+
+**2D Layout - Inner Layer 2 (Route2)**
+
+![PCB 2D Route2](Images/pcb_2d_route2.jpg)
+
+**2D Layout - Inner Layer 63 (Route63)**
+
+![PCB 2D Route63](Images/pcb_2d_route63.jpg)
 
 **3D Render**
 
@@ -371,8 +387,6 @@ The enclosure is designed in Fusion 360 and prototyped via 3D printing (SLS/MJF)
 
 ## Schematic
 
-![Full Schematic](Images/InkTime_Schematic.jpg)
-
 The Eagle schematic and board files are available in the [Hardware/](Hardware/) folder:
 - [InkTime_Schematic.sch](Hardware/InkTime_Schematic.sch) - Eagle schematic
 - [InkTime_Schematic.brd](Hardware/InkTime_Schematic.brd) - Eagle board layout
@@ -399,8 +413,11 @@ InkTime_Watch/
 │   └── InkTime_Schematic.brd
 ├── Images/                    # Renders, photos, and diagrams
 │   ├── InkTime_Watch.jpg      # Enclosure 3D render
-│   ├── InkTime_Schematic.jpg  # Full schematic image
-│   ├── pcb_2d.jpg             # PCB 2D layout
+│   ├── InkTime_Board.jpg      # Board overview render
+│   ├── pcb_2d_top.jpg         # PCB 2D layout - top layer
+│   ├── pcb_2d_bottom.jpg      # PCB 2D layout - bottom layer
+│   ├── pcb_2d_route2.jpg      # PCB 2D layout - inner layer 2
+│   ├── pcb_2d_route63.jpg     # PCB 2D layout - inner layer 63
 │   ├── pcb_3d.jpg             # PCB 3D render
 │   ├── battery.jpg            # Battery 3D model
 │   ├── display.jpg            # Display 3D model
